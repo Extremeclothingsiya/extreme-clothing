@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { seoHead } from "@/components/SEOHead";
 import heroImg from "@/assets/hero.jpg";
-import founderImg from "@/assets/founder.jpg";
 import shortsImg from "@/assets/product-shorts.jpg";
 import beanieImg from "@/assets/product-beanie.jpg";
 import capImg from "@/assets/product-cap.jpg";
@@ -548,19 +547,8 @@ function LookbookBanner() {
 function About() {
   return (
     <section id="story" className="bg-background py-24 md:py-32 grid-bg">
-      <div className="mx-auto grid max-w-[1400px] gap-12 px-4 md:grid-cols-12 md:px-8">
-        <div className="md:col-span-5">
-          <img
-            src={founderImg}
-            alt="Siyanda Ndima, founder of XTREME CLOTHING, in Thokoza"
-            loading="lazy"
-            width={1024}
-            height={1280}
-            className="w-full rounded-2xl object-cover"
-          />
-        </div>
-        <div className="md:col-span-7 md:pl-8">
-          <div className="text-xs font-bold uppercase tracking-[0.25em] text-crimson">About the Brand</div>
+      <div className="mx-auto max-w-[1400px] px-4 md:px-8">
+        <div className="text-xs font-bold uppercase tracking-[0.25em] text-crimson">About the Brand</div>
           <h2 className="mt-3 font-display text-6xl leading-[0.9] md:text-7xl">
             XTREME<br />
             <span className="italic font-serif text-royal">CLOTHING.</span>
