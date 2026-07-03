@@ -903,7 +903,7 @@ function ProductDetail({
           <div className="mt-6 grid gap-6 sm:grid-cols-3">
             {related.map((r) => (
               <div key={r.id} className="rounded-2xl bg-muted p-3">
-                <img src={r.image} alt={r.alt} loading="lazy" className="aspect-[4/5] w-full rounded-xl object-cover" />
+                <img src={r.image} alt={r.alt} loading="lazy" className="aspect-[3/5] w-full rounded-xl bg-bone/5 object-contain" />
                 <div className="mt-3 flex items-center justify-between text-sm">
                   <span className="font-display uppercase">{r.name}</span>
                   <span className="text-crimson">R{r.price}</span>
