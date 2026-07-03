@@ -459,14 +459,14 @@ function ProductCard({
         onClick={() => onView(p)}
         className="relative block w-full overflow-hidden rounded-2xl bg-bone/5 text-left"
       >
-        <div className="aspect-[4/5] overflow-hidden">
+        <div className="aspect-[3/5] overflow-hidden bg-bone/5">
           <img
             src={p.image}
             alt={p.alt}
             loading="lazy"
-            width={1024}
-            height={1280}
-            className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.06]"
+            width={720}
+            height={1220}
+            className="h-full w-full object-contain transition duration-700 group-hover:scale-[1.06]"
           />
         </div>
         <div className="absolute left-4 top-4 rounded-full bg-crimson px-3 py-1 text-[10px] font-bold uppercase tracking-widest">
