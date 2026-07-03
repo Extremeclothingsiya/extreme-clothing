@@ -826,10 +826,10 @@ function ProductDetail({
         </div>
         <div className="grid gap-8 p-6 md:grid-cols-2 md:p-10">
           <div className="grid grid-cols-3 gap-3">
-            <img src={product.image} alt={product.alt} loading="lazy" className="col-span-3 aspect-[4/5] w-full rounded-2xl object-cover" />
-            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg object-cover opacity-80" />
-            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg object-cover opacity-80" />
-            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg object-cover opacity-80" />
+            <img src={product.image} alt={product.alt} loading="lazy" className="col-span-3 aspect-[3/5] w-full rounded-2xl bg-bone/5 object-contain" />
+            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg bg-bone/5 object-contain opacity-80" />
+            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg bg-bone/5 object-contain opacity-80" />
+            <img src={product.image} alt="" loading="lazy" className="aspect-square rounded-lg bg-bone/5 object-contain opacity-80" />
           </div>
           <div>
             <h3 className="font-display text-4xl uppercase leading-tight">{product.name}</h3>
